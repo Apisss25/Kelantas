@@ -84,7 +84,7 @@ const Login = () => {
 
           <div className="mb-4">
             <label className="block text-[16px] font-regular text-black mb-1 font-[poppins]">
-              Asal Sekolah
+              umur
             </label>
             <input
               type="text"
