@@ -7,14 +7,15 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
-import ProtectedRoute from "./components/ProtectedRoute";
+
 import Footer from "./components/Footer";
 import MotorbikeRules from "./pages/Rules/MotorBikeRules";
 import CarRules from "./pages/Rules/CarRules";
 import CarUU from "./pages/UU/CarUU";
 import MotorbikeUU from "./pages/UU/MotorbikeUU";
+import MasukanDanSaran from "./pages/MasukanSaran/MasukanDanSaran";
 
 const AppContent = () => {
   // const location = useLocation();
@@ -32,6 +33,7 @@ const AppContent = () => {
         <Route path="/carRules" element={<CarRules />} />
         <Route path="/carUU" element={<CarUU />} />
         <Route path="/MotorbikeUU" element={<MotorbikeUU />} />
+        <Route path="/MasukanSaran" element={<MasukanDanSaran />} />
       </Routes>
       {/* {!hideNavbar && <Footer />} */}
       <Footer />

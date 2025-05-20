@@ -2,11 +2,11 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBook,
-  faGavel,
+  faBalanceScale,
   faRoad,
   faTrafficLight,
   faFileContract,
-  faBalanceScale,
+  faGavel,
 } from "@fortawesome/free-solid-svg-icons";
 
 const carUUData = [
@@ -16,27 +16,36 @@ const carUUData = [
     title: "UU No. 22 Tahun 2009",
     desc: (
       <>
-        Undang‑Undang No. 22 Tahun 2009 tentang Lalu Lintas dan Angkutan Jalan merupakan payung hukum utama di Indonesia yang mengatur segala aspek berkendara, mulai dari persyaratan teknis kendaraan, tata cara penggunaan jalan, hingga mekanisme penegakan hukum. UU ini bertujuan menjamin keselamatan, kelancaran, dan ketertiban serta mewujudkan keamanan di jalan raya.
+        Undang‑Undang No. 22 Tahun 2009 tentang Lalu Lintas dan Angkutan Jalan
+        merupakan payung hukum utama di Indonesia yang mengatur segala aspek
+        berkendara, mulai dari persyaratan teknis kendaraan, tata cara
+        penggunaan jalan, hingga mekanisme penegakan hukum. UU ini bertujuan
+        menjamin keselamatan, kelancaran, dan ketertiban serta mewujudkan
+        keamanan di jalan raya.
       </>
     ),
   },
   {
     id: 2,
     icon: faBalanceScale,
-    title: "Pasal 59 - Sabuk Pengaman",
+    title: "Pasal 59 Ayat (1) - Sabuk Pengaman",
     desc: (
       <>
-        Setiap pengemudi dan penumpang di kursi depan wajib menggunakan sabuk pengaman selama kendaraan berjalan. Pasal ini dirancang untuk mengurangi risiko cedera serius atau fatal saat terjadi benturan atau kecelakaan.
+        Setiap pengemudi dan penumpang di kursi depan wajib menggunakan sabuk
+        pengaman selama kendaraan berjalan untuk mengurangi risiko cedera serius
+        atau fatal saat kecelakaan. Pelanggaran dikenakan denda administratif.
       </>
     ),
   },
   {
     id: 3,
     icon: faRoad,
-    title: "Pasal 106 - Batas Kecepatan",
+    title: "Pasal 106 Ayat (7) - Konsentrasi Mengemudi",
     desc: (
       <>
-        Menetapkan batas kecepatan maksimal sesuai jenis dan kelas jalan: 20–40 km/jam di kawasan permukiman, 60 km/jam di jalan kota, dan 80 km/jam di jalan bebas hambatan perkotaan. Kepatuhan pada pasal ini penting untuk menghindari kecelakaan akibat kecepatan berlebih.
+        Pengemudi wajib penuh konsentrasi dan tidak terganggu perhatiannya oleh
+        gangguan seperti menggunakan telepon genggam, minum alkohol, atau
+        menonton video saat mengemudi, untuk keselamatan pengguna jalan lain.
       </>
     ),
   },
@@ -46,7 +55,9 @@ const carUUData = [
     title: "Pasal 287 - Lampu Lalu Lintas",
     desc: (
       <>
-        Pelanggaran lampu lalu lintas, termasuk menerobos lampu merah, dikenakan sanksi pidana penjara maksimal 2 bulan atau denda paling banyak Rp500.000. Pasal ini mencegah risiko tabrakan silang di persimpangan yang dapat berakibat fatal.
+        Pelanggaran lampu lalu lintas, termasuk menerobos lampu merah, dikenakan
+        sanksi pidana penjara maksimal 2 bulan atau denda maksimal Rp 500.000
+        guna mencegah kecelakaan di persimpangan silang.
       </>
     ),
   },
@@ -56,7 +67,9 @@ const carUUData = [
     title: "Pasal 283 - Kendaraan Layak Jalan",
     desc: (
       <>
-        Kendaraan bermotor harus memenuhi syarat laik jalan, seperti kondisi rem, lampu, ban, dan sistem kemudi. Pemeriksaan teknis wajib dilakukan secara berkala agar kendaraan dalam keadaan baik dan aman saat digunakan.
+        Kendaraan harus memenuhi persyaratan laik jalan seperti rem, lampu, ban,
+        dan sistem kemudi. Pemeriksaan teknis berkala wajib dilakukan agar
+        kendaraan aman dioperasikan.
       </>
     ),
   },
@@ -66,27 +79,33 @@ const carUUData = [
     title: "Pasal 288 - Sanksi Pelanggaran",
     desc: (
       <>
-        Menjelaskan jenis sanksi bagi pelanggar aturan lalu lintas: denda administratif, tilang, hingga hukuman kurungan ringan. Besaran sanksi disesuaikan dengan tingkat pelanggaran untuk memberikan efek jera.
+        Menjelaskan jenis sanksi bagi pelanggar aturan lalu lintas: denda
+        administratif, tilang, hingga hukuman kurungan ringan. Besaran sanksi
+        disesuaikan dengan tingkat pelanggaran.
       </>
     ),
   },
   {
     id: 7,
     icon: faGavel,
-    title: "Pasal 59A - Airbag dan Perangkat Keamanan Tambahan",
+    title: "Pasal 81 Ayat (1) - Kepemilikan SIM",
     desc: (
       <>
-        Mengatur kewajiban pabrikan kendaraan menyediakan airbag dan perangkat keselamatan pasif lain untuk mengurangi risiko cedera penumpang saat kecelakaan.
+        Setiap pengemudi kendaraan bermotor roda empat atau lebih wajib memiliki
+        Surat Izin Mengemudi (SIM) yang sesuai golongan untuk jenis kendaraan
+        yang dikendarainya.
       </>
     ),
   },
   {
     id: 8,
     icon: faRoad,
-    title: "Pasal 115 - Penggunaan Ponsel",
+    title: "Pasal 106 Ayat (7) - Larangan Menggunakan Ponsel",
     desc: (
       <>
-        Melarang pengemudi menggunakan telepon genggam atau alat sejenis tanpa perangkat handsfree selama berkendara, guna meminimalisir gangguan konsentrasi dan mengurangi potensi kecelakaan.
+        Pengemudi dilarang menggunakan telepon genggam atau perangkat lain tanpa
+        handsfree saat mengemudi untuk meminimalisir gangguan konsentrasi dan
+        mengurangi potensi kecelakaan.
       </>
     ),
   },

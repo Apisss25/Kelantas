@@ -165,6 +165,11 @@ export default function Navbar() {
               )}
             </li>
           ))}
+          <li>
+            <Link to="/MasukanSaran" onClick={closeAll}>
+              Masukan & Saran
+            </Link>
+          </li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -232,6 +237,11 @@ export default function Navbar() {
               )}
             </li>
           ))}
+          <li>
+            <Link to="/MasukanSaran" onClick={closeAll}>
+              Masukan & Saran
+            </Link>
+          </li>
         </ul>
       </div>
     </>
