@@ -17,29 +17,24 @@ import CarUU from "./pages/UU/CarUU";
 import MotorbikeUU from "./pages/UU/MotorbikeUU";
 
 const AppContent = () => {
-  const location = useLocation();
-  const hideNavbar = location.pathname === "/login";
+  // const location = useLocation();
+  // const hideNavbar = location.pathname === "/login";
 
   return (
     <>
-      {!hideNavbar && <Navbar />}
+      {/* {!hideNavbar && <Navbar />} */}
+      <Navbar />
       <Routes>
         {/* <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} /> */}
-        <Route
-          path="/"
-          element={
-            <ProtectedRoute>
-              <Home />
-            </ProtectedRoute>
-          }
-        />
+        <Route path="/" element={<Home />} />
         <Route path="/motorbikeRules" element={<MotorbikeRules />} />
         <Route path="/carRules" element={<CarRules />} />
-        <Route path="/carUU" element={<CarUU/>} />
-        <Route path="/MotorbikeUU" element={<MotorbikeUU/>} />
+        <Route path="/carUU" element={<CarUU />} />
+        <Route path="/MotorbikeUU" element={<MotorbikeUU />} />
       </Routes>
-      {!hideNavbar && <Footer />}
+      {/* {!hideNavbar && <Footer />} */}
+      <Footer />
     </>
   );
 };
