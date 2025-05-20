@@ -24,10 +24,10 @@ const AppContent = () => {
     <>
       {!hideNavbar && <Navbar />}
       <Routes>
-        <Route path="/" element={<Navigate to="/login" />} />
-        <Route path="/login" element={<Login />} />
+        {/* <Route path="/" element={<Navigate to="/login" />} />
+        <Route path="/login" element={<Login />} /> */}
         <Route
-          path="/home"
+          path="/"
           element={
             <ProtectedRoute>
               <Home />
